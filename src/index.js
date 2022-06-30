@@ -51,8 +51,8 @@ function createCountriesListMarkup(data) {
   return data.map(({ flags, name }) =>
     `<li>
       <div class="countries-data-wrap">
-        <img src="${flags.svg}" alt="flag of ${name.official}" width="30">
-       ${name.official}
+        <img src="${flags.svg}" alt="flag of ${name.official}">
+        <p>${name.official}</p>
       </div>
     </li>`)
     .join('');
@@ -62,7 +62,7 @@ function createCountryInfoMarkup(data) {
   return data.map(({ name, capital, population, flags, languages }) =>
 `
   <div class="counry-header-wrap">
-  <img src="${flags.svg}" alt="flag of ${name.official}" width="30" height="30">
+  <img src="${flags.svg}" alt="flag of ${name.official}">
   <h1>${name.official}</h1>
   </div>
 
