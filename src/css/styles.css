@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 16px 0 0 16px;
 }
 
 #search-box {
@@ -17,4 +18,36 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.countries-data-wrap {
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.counry-header-wrap {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  margin: 16px 0 16px 0;
 }
